@@ -15,6 +15,6 @@ const titleCased = () => {
   return tutorials.map(function(obj){
     let  word = obj.split(' ');
     let newWord = word.map(word => word.charAt(0).toUpperCase() + word.substring(1));
-    return editedRow.join(' ');
+    return newWord.join(' ');
   });
 }
